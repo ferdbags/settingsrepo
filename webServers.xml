@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="43f704d1-8682-4f4b-827d-2b7a8a6a6288" name="Development Server" url="http://192.168.0.56/">
-        <fileTransfer port="0" mountedRoot="Z:\sentientData\websites\sentient\web\ScorebuddyGateway" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="Z:\sentientData\websites\sentient\web" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
