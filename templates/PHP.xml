@@ -18,4 +18,11 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="pdoi" value="$stmt = $this-&gt;dbh-&gt;prepare(&quot;&#10;    $END$&#10;&quot;);&#10;$stmt-&gt;execute([&#10;    $PARAMETERS$&#10;]);&#10;&#10;" description="PDO -&gt; Insert Statement" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>
