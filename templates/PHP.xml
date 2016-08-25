@@ -1,8 +1,0 @@
-<templateSet group="PHP">
-  <template name="pvd" value="echo &quot;&lt;pre&gt;&quot;; var_dump($END$); die();" description="pre -&gt; var_dump -&gt; die" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP Expression" value="true" />
-      <option name="PHP Statement" value="true" />
-    </context>
-  </template>
-</templateSet>
